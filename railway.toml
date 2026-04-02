@@ -4,3 +4,4 @@ builder = "nixpacks"
 [deploy]
 startCommand = "npm start"
 restartPolicyType = "on_failure"
+
