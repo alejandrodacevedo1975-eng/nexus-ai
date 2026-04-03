@@ -5,7 +5,7 @@ const Database = require('better-sqlite3');
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static('.'));
 
 const db = new Database('nexus.db');
 db.exec(`
